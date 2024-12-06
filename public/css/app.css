@@ -1,0 +1,253 @@
+
+/*GLOBAL*/
+html{
+
+	scroll-behavior: smooth;
+	
+}
+
+:root{
+
+	--rubik-font:'Rubik Moonrocks', cursive;
+    --dark-gray:#141824;
+    --light-gray:#abafb9;
+    --border-gray:#353c50;
+    --white:#ffffff;
+    --lightwhite:#eeeeee;
+    --arg-blue:#6CB4EE;
+    --pink-iphone:#FFD3E0;
+    --light-green:#90d67f;
+    --gray-extradark:#0f111a;
+    --table-black:#141824;
+
+}
+
+.bg-darkgray{
+    background-color: var(--dark-gray);
+}
+
+.bg-extradarkgray{
+    background-color: var(--gray-extradark);
+}
+
+.border-gray{
+    border-color: var(--border-gray)!important;
+    border-width: 2px!important;
+}
+
+.text-arg{
+    color: var(--arg-blue);
+}
+
+.text-lightgreen{
+    color: var(--light-green);
+}
+
+.text-lightgray{
+    color: var(--light-gray);
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer{
+    padding: 1em 0!important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.breadcrumb-item a{
+    text-decoration: none!important;
+    color: var(--arg-blue);
+}
+
+.breadcrumb li.active{
+    color: var(--light-gray)!important;
+    
+}
+
+.breadcrumb{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.breadcrumb-separator{
+    color: var(--light-gray)!important;
+    margin-left: 4px;
+    font-weight: bolder;
+}
+
+.table{
+    vertical-align: middle;
+}
+
+.text-pink-iphone{
+    color: var(--pink-iphone);
+}
+
+.bg-pink-iphone{
+    background-color: var(--pink-iphone);
+}
+
+td, th{
+    background-color: var(--table-black)!important;
+    color:var(--light-gray)!important;
+}
+
+/*END GLOBAL*/
+
+/*LOGIN*/
+
+.login-box-container{
+    background: #0885e1;
+    min-height: 100vh;
+}
+
+.login-box{
+    border-radius: 50px;
+    background: #0885e1;
+    box-shadow:  20px 20px 60px #03355a,
+                 -20px -20px 60px #0dd5ff;
+}
+
+.login-title{
+    font-size: 3rem;
+}
+
+.login-subtitle{
+    font-size: .75rem;
+}
+
+/*Dashboard*/
+
+.margin-5{
+    margin-left:5rem
+}
+
+.btn-nav{
+    color: var(--light-gray);
+    transition: background-color .6s;
+}
+
+.btn-nav:hover{
+    background-color: #abafb9;
+    color:var(--dark-gray);
+}
+
+/*Warehouse*/
+
+.btn-left{
+    border-radius: 7px 0% 0% 7px!important;
+    border-color: var(--border-gray);
+}
+
+.btn-center{
+    border-radius: 0%!important;
+    border-color: var(--border-gray);
+}
+
+.btn-right{
+    border-radius: 0% 7px 7px 0%!important;
+    border-color: var(--border-gray);
+}
+
+.prod-thumbnail{
+    height: 3rem;
+    width: 3rem;
+}
+
+.mini-prod-thumbnail{
+    height: 2rem;
+    width: 2rem;
+}
+
+/*Product*/
+
+.price-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.medium-prod-thumbnail{
+    height: 6rem;
+    width: 6rem;
+}
+
+.border-arg{
+    border-color: var(--arg-blue)!important;
+}
+
+.carousel-img{
+    height: 60vh;
+    background: no-repeat;
+    background-position: bottom!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.product-detail-nav{
+    font-weight: normal!important;
+    font-size: .85rem!important;
+}
+
+/*new/edit product*/
+
+.form-dotted{
+    height: 6rem!important; 
+    border-style: dashed!important; 
+}
+
+.custom-file-button input[type=file] {
+    margin-left: -2px !important;
+  }
+  
+  .custom-file-button input[type=file]::-webkit-file-upload-button {
+    display: none;
+  }
+  
+  .custom-file-button input[type=file]::file-selector-button {
+    display: none;
+  }
+  
+  .custom-file-button:hover label {
+    background-color: #dde0e3;
+    cursor: pointer;
+  }
+
+  /*Orders*/
+
+  .badge-complete{
+    background-color: #182024;
+    color: #82c466;
+    border-color: #315e3c;
+    border:1px solid;
+  }
+
+  .badge-pending{
+    background-color: #262527;
+    color: #e0af68;
+    border-color: #5d4439;
+    border:1px solid;
+  }
+
+  .badge-cancel{
+    background-color: #241f25;
+    color: #e47056;
+    border-color: #6b3132;
+    border:1px solid;
+  }
+
+  .badge-oncourse{
+    background-color: 
+    #1a2431;
+    color: #4babe2;
+    border-color: #294363;
+    border:1px solid;
+  }
